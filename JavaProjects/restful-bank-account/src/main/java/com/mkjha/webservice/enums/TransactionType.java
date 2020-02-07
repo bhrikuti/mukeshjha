@@ -1,0 +1,22 @@
+package com.mkjha.webservice.enums;
+
+/**
+ * @author mkjha
+ *
+ */
+public enum TransactionType {
+    
+    DEPOSIT(1), WITHDRAWAL(2);
+    int id;
+    
+    private TransactionType(int id) {
+        this.id = id;
+    }
+
+    public int getId() {
+        return id;
+    }
+    
+    
+
+}
