@@ -1,12 +1,12 @@
 package com.mkjha.webservice;
 
 import org.springframework.boot.CommandLineRunner;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.example.webservice.domain.Account;
-import com.example.webservice.services.AccountService;
+
 
 /**
  * @author mkjha
